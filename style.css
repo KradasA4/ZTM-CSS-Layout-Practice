@@ -1,8 +1,8 @@
-/*body:not(nav *) {
+body:not(nav *) {
     max-width: 0;
     padding: 0%;
     margin: 0%;
-} */
+}
 
 .mainContainer {
     display: grid;
@@ -29,7 +29,7 @@
 #project {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    min-height: 600px;
+    min-height: 300px;
     min-width: 100%;
     gap: 30px;
     padding: 30px;
@@ -53,9 +53,10 @@
 #credits {
     display: flex;
     justify-content: center;
+    text-align: center;
     padding: 10px;
+    min-height: 100%;
 }
-
 
 
 
